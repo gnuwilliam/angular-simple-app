@@ -1,17 +1,23 @@
 <!DOCTYPE html>
 <html ng-app="App">
     <head>
-        <title>AngularJS First App!</title>
+        <title>AngularJS Simple App!</title>
         <link rel="stylesheet" type="text/css" href="assets/css/app.css">
         <link href='http://fonts.googleapis.com/css?family=Alegreya+Sans:300,400' rel='stylesheet' type='text/css'>
         <link href='http://fonts.googleapis.com/css?family=Architects+Daughter' rel='stylesheet' type='text/css'>
     </head>
 
     <body>
-        <div class="main">
-            <h1>My First AngularJS App</h1>
+        <div class="main container">
+            <h1>Simple AngularJS App</h1>
             <ng-view></ng-view>
         </div>
+
+        <footer>
+            <div class="container">
+                <p><a class="github" href="https://github.com/gnuwilliam">William Oliveira</a></p>
+            </div>
+        </footer>
 
         <script type="text/javascript" src="assets/bower/angular/angular.js"></script>
         <script type="text/javascript" src="assets/bower/angular-route/angular-route.min.js"></script>
