@@ -1,20 +1,18 @@
-<div ng-controller="CustomerController">
-    <div class="filter">
-        <h3>Filtro por nome</h3>
-        <p><input type="text" ng-model="filter.name" placeholder="Pesquisar clientes por nome" /></p>
+<div class="filter">
+    <h3>Filtro por nome</h3>
+    <p><input type="text" ng-model="filter.name" placeholder="Pesquisar clientes por nome" /></p>
 
-        <ul>
-            <li ng-repeat="customer in customers | filter:filter.name">
-                {{ customer.name }} - {{ customer.city }}
-            </li>
-        </ul>
-    </div>
+    <ul>
+        <li ng-repeat="customer in customers | filter:filter.name">
+            {{ customer.name }} - {{ customer.city }}
+        </li>
+    </ul>
+</div>
 
-    <div class="new">
-        <h3>Inserir novo cliente</h3>
+<div class="new">
+    <h3>Inserir novo cliente</h3>
 
-        <p><input type="text" ng-model="newCustomer.name" placeholder="Nome" /></p>
-        <p><input type="text" ng-model="newCustomer.city" placeholder="Cidade" /></p>
-        <p><button ng-click="addCustomer()">Salvar</button></p>
-    </div>
+    <p><input type="text" ng-model="newCustomer.name" placeholder="Nome" /></p>
+    <p><input type="text" ng-model="newCustomer.city" placeholder="Cidade" /></p>
+    <p><button ng-click="addCustomer()">Salvar</button></p>
 </div>
