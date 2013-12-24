@@ -1,3 +1,5 @@
+var App = angular.module('App', []);
+
 function CustomerController($scope) {
   $scope.customers = [
     { name : 'Steve Jobs', city : 'San Francisco' },
@@ -5,3 +7,5 @@ function CustomerController($scope) {
     { name : 'Mark Zuckerberg', city : 'Palo Alto' }
   ];
 }
+
+App.controller('CustomerController', CustomerController);
