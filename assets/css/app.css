@@ -1,0 +1,38 @@
+html, body {
+    font-family: 'Alegreya Sans', sans-serif;
+    background-color: #5E5E5E;
+}
+
+.main {
+    margin: auto;
+    position: relative;
+    width: 960px;
+    box-sizing: border-box;
+    background-color: #F0F0F0;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.6);
+    padding: 50px;
+    margin-top: 50px;
+}
+
+.main h1 {
+    font-weight: 400;
+    margin: 10px 0;
+    font-family: 'Architects Daughter', cursive;
+}
+
+.main input {
+    padding: 7px;
+    border: 1px solid rgba(0, 0, 0, 0.13);
+    outline: none;
+    margin: 0;
+    min-width: 200px;
+}
+
+.main p {
+    font-weight: 300;
+    font-size: 18px;
+}
+
+.main ul {
+    padding-left: 20px;
+}

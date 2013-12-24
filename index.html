@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html ng-app>
+    <head>
+        <title>AngularJS First App!</title>
+        <link rel="stylesheet" type="text/css" href="assets/css/app.css">
+        <link href='http://fonts.googleapis.com/css?family=Alegreya+Sans:100,300,400' rel='stylesheet' type='text/css'>
+        <link href='http://fonts.googleapis.com/css?family=Architects+Daughter' rel='stylesheet' type='text/css'>
+    </head>
+
+    <body>
+        <div class="main" ng-controller="CustomerController">
+            <h1>My First AngularJS App</h1>
+            
+            <p><input type="text" ng-model="name" placeholder="Pesquisar clientes" /></p>
+
+            <ul>
+                <li ng-repeat="customer in customers | filter:name">
+                    {{ customer.name }} - {{ customer.city }}
+                </li>
+            </ul>
+        </div>
+
+        <script type="text/javascript" src="assets/bower/angular/angular.min.js"></script>
+        <script type="text/javascript" src="assets/js/app.js"></script>
+    </body>
+</html>
