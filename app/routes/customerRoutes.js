@@ -3,7 +3,7 @@ App.config(function ($routeProvider) {
     .when('/', 
       {
         controller: 'CustomerController',
-        templateUrl: '/app/templates/customer.html'
+        templateUrl: 'app/templates/customer.html'
       }
     )
     .otherwise( { redirectTo: '/' } );
