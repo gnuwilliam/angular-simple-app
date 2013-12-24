@@ -1,0 +1,10 @@
+<div ng-controller="CustomerController">
+    <h3>Filtro por cidade</h3>
+    <p><input type="text" ng-model="filter.city" placeholder="Pesquisar clientes por cidade" /></p>
+
+    <ul>
+        <li ng-repeat="customer in customers | filter:filter.city">
+            {{ customer.name }} - {{ customer.city }}
+        </li>
+    </ul>
+</div>
