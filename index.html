@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html ng-app="App">
     <head>
-        <title>AngularJS Simple App!</title>
+        <title>Pega Contatos</title>
         <link rel="stylesheet" type="text/css" href="assets/css/app.css">
         <link href='http://fonts.googleapis.com/css?family=Alegreya+Sans:300,400' rel='stylesheet' type='text/css'>
         <link href='http://fonts.googleapis.com/css?family=Architects+Daughter' rel='stylesheet' type='text/css'>
@@ -9,7 +9,7 @@
 
     <body>
         <div class="main container">
-            <h1>Simple AngularJS App</h1>
+            <h1>Pega Contatos</h1>
             <ng-view></ng-view>
         </div>
 
@@ -19,10 +19,12 @@
             </div>
         </footer>
 
-        <script type="text/javascript" src="assets/bower/angular/angular.min.js"></script>
+        <script type="text/javascript" src="assets/bower/angular/angular.js"></script>
         <script type="text/javascript" src="assets/bower/angular-route/angular-route.min.js"></script>
+        <script type="text/javascript" src="assets/bower/angular-facebook/lib/angular-facebook.js"></script>
 
         <script type="text/javascript" src="app/app.js"></script>
+        <script type="text/javascript" src="app/config/config.js"></script>
         <script type="text/javascript" src="app/routes/customerRoutes.js"></script>
         <script type="text/javascript" src="app/controllers/customerController.js"></script>
         <script type="text/javascript" src="app/services/customerFactory.js"></script>

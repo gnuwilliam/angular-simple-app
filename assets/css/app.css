@@ -97,8 +97,11 @@ html, body {
 }
 
 .light {
-    /*color: #FF3A3A;*/
     color: #B9B5B5;
+}
+
+.light-red {
+    color: #FF3A3A;
 }
 
 footer {
