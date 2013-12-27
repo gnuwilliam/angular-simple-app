@@ -60,9 +60,9 @@ html, body {
     margin-bottom: 27px;
     box-sizing: border-box;
     display: table;
-    box-shadow: 0 0 5px rgba(0, 0, 0, 0.06);
-    border: 1px solid rgba(0, 0, 0, 0.04);
     cursor: pointer;
+    position: relative;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.06);
 
     -webkit-transition: all 0.2s ease-in-out;
        -moz-transition: all 0.2s ease-in-out;
@@ -72,16 +72,22 @@ html, body {
 }
 
 .customer-cards li:hover {
-    background-color: #FCFFF0;
-    border: 1px solid #E1E4D5;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.15);
 }
 
 .customer-cards li p {
     margin: 0;
     text-align: center;
-    display: table-cell; 
-    vertical-align: bottom;
+    /*display: table-cell; 
+    vertical-align: middle;*/
     clear: both;
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    background-color: rgba(0, 0, 0, 0.45);
+    color: #FFF;
+    padding: 2px;
+    box-sizing: border-box;
 }
 
 .customer-cards li:nth-child(5n+5) {
