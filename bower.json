@@ -16,6 +16,7 @@
   ],
   "dependencies": {
     "angular": "~1.2.6",
-    "angular-route": "~1.2.6"
+    "angular-route": "~1.2.6",
+    "angular-facebook": "~0.2.2"
   }
 }
