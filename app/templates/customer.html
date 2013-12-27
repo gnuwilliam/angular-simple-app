@@ -1,8 +1,8 @@
 <h3 ng-show="welcome">Bem-vindo, <b class="light-red">{{ user.name }}</b></h3>
 
-<button ng-show="!logged" ng-disabled="!facebookReady" ng-click="IntentLogin()">Connect with Facebook</button>
+<button ng-show="!logged" ng-disabled="!facebookReady" ng-click="IntentLogin()">Conectar com o Facebook</button>
 
-<button ng-show="logged" ng-disabled="!facebookReady" ng-click="logout()">Logout</button>
+<button ng-show="logged" ng-disabled="!facebookReady" ng-click="logout()">Sair</button>
 
 <div class="filter" ng-show="logged">
     <h3>Filtrar por nome</h3>
