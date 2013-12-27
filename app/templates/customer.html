@@ -6,10 +6,10 @@
 
 <div class="filter" ng-show="logged">
     <h3>Filtrar por nome</h3>
-    <p><input type="text" ng-model="filter.name" placeholder="Search customers by name" /></p>
+    <p><input type="text" ng-model="filter.name" placeholder="Busque contatos pelo nome" /></p>
 
     <ul class="customer-cards">
-        <li ng-repeat="friend in friends.data | filter:filter.name">
+        <li ng-repeat="friend in friends.data | filter:filter.name" style="background: url(http://graph.facebook.com/{{ friend.id }}/picture?type=large) no-repeat center center; background-size: 100% auto;">
             <p>
                 {{ friend.name }}
                 <!-- <br /><small class="light">{{ friend.location }}</small> -->

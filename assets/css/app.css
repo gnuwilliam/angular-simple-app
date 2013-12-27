@@ -80,7 +80,7 @@ html, body {
     margin: 0;
     text-align: center;
     display: table-cell; 
-    vertical-align: middle;
+    vertical-align: bottom;
     clear: both;
 }
 
