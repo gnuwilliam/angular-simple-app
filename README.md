@@ -7,3 +7,5 @@ To run the project, just hit this command on your terminal
 ```
 ./run.sh
 ```
+
+[Demo](http://nofreakz.com.br/william/angularjs/simple-app/#/)
