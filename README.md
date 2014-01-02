@@ -8,4 +8,6 @@ To run the project, just hit this command on your terminal
 ./run.sh
 ```
 
+![](http://i.imgur.com/HX2hto8.png)
+
 [Demo](http://nofreakz.com.br/william/angularjs/simple-app/#/)
